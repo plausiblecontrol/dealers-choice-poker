@@ -238,4 +238,11 @@
     * If noone can win, the dealer collects all the cards, reshuffles, and redeals.
     * If at anypoint someone Folds, they are not able to be redealt cards if noone can win.
 
+# Jacks to Open, Trips to Win
+### Type: 5Card Draw
+### Wilds: None
+### Variations:
+ 1. First Draw & Showdown are adjusted per Jacks to Open and Trips to Win rulings.
+    * May the poker lords have mercy on your Dealer's soul for how much they will be redealing.
+
 
