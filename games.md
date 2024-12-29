@@ -79,10 +79,10 @@
 ### Type: 7Card Stud
 ### Wilds: None
 ### Variation:
-   1. The Showdown
-     * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best (High or Low) Spade in their hole. 
-       * This might be the same player.
-       * Best 5 card hand takes the lowest remainder from the pot split.
+ 1. The Showdown
+    * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best (High or Low) Spade in their hole. 
+      * This might be the same player.
+      * Best 5 card hand takes the lowest remainder from the pot split.
 
 # Shipwreck (Secret Squirrel)
 ### Type: 7Card Stud
