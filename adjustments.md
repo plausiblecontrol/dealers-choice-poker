@@ -1,4 +1,4 @@
-#Further adjustments can be played to modify an existing game
+# Further adjustments can be played to modify an existing game
 
 ## Played with Confidence: 
 * If at any point someone folds, all remaining players must re-ante to continue play. If someone folds during the confidence ante it repeats a re-ante with all remaining players.
