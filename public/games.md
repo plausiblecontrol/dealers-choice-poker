@@ -1,3 +1,27 @@
+Table of Contents
+- [5Card Draw](#5Card-Draw)
+- [7Card Stud](7card-stud)
+- [In Between](in-between)
+- [5Card Stud](5card-stud)
+- [(High or Low) Chicago ](high-or-low-chicago)
+- [Shipwreck (Secret Squirrel)](shipwreck-secret-squirrel)
+- [Baseball](baseball)
+- [Shifty](shifty)
+- [Follow the Queen](follow-the-queen)
+- [A Caring Heart](a-caring-heart)
+- [Swap Meat](swap-meat)
+- [Spittoon](spittoon)
+- [CYA](cya)
+- [James Bond (007)](james-bond-007)
+- [5-2](5-2)
+- [Jewel Thief](jewel-thief)
+- [Countdown (Progressive Draw)](countdown-progressive-draw)
+- [Jacks to Open](jacks-to-open)
+- [Trips to Win](trips-to-win)
+- [Jacks to Open, Trips to Win](jacks-to-open-trips-to-win)
+
+---
+
 # 5Card Draw
 ### Type: Draw Poker
 ### Wilds: None
@@ -13,7 +37,6 @@
  4. Second Bet
  5. Showdown
     * Best 5 card poker hand wins the pot.
-
 
 # 7Card Stud
 ### Type: Stud Poker
@@ -238,5 +261,4 @@
 ### Variations:
  1. First Draw & Showdown are adjusted per Jacks to Open and Trips to Win rulings.
     * May the poker lords have mercy on your Dealer's soul for how much they will be redealing.
-
 
