@@ -80,9 +80,7 @@
 ### Wilds: None
 ### Variation:
  1. The Showdown
-    * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best (High or Low) Spade in their hole. 
-      * This might be the same player.
-      * Best 5 card hand takes the lowest remainder from the pot split.
+    * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best (High or Low) Spade in their hole. This might be the same player. Best 5 card hand takes the lowest remainder from the pot split.
 
 # Shipwreck (Secret Squirrel)
 ### Type: 7Card Stud
@@ -182,19 +180,16 @@
 ### Variation:
  1. Showdown
     * Each players' 7 cards are split into two piles between their 5 card poker hand and a 2 card high-hand.
-    * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best 2 card high-hand.
-      * This might be the same player.
-      * Best 5 card hand takes the lowest remainder from the pot split.
+    * The pot is split between the player with the best 5 card poker hand (the winner) and the player who has the best 2 card high-hand. This might be the same player. Best 5 card hand takes the lowest remainder from the pot split.
 
 # Jewel Thief
 ### Type: 7Card Stud
 ### Wilds: Red Face Cards
 ### Variation:
  1. Betting and Showdown
-    * Valid poker hands must be of the same Color.
-      * A pair consistenting of a Red card and a Black card is not a valid pair in this game.
+    * Valid poker hands must be of the same color- A pair consistenting of a Red card and a Black card is not a valid pair in this game.
     * Wilds are 'Spies' (strict and unique) - they may not exist as a card that is being used in a hand by its real representation. Wilds may also not represent a suit that does not exist. The first Wild has priority over its chosen card representation, other players' wild are not valid if they try to represent the same card.
-      * Trips, Quads, and Boats are impossible in this game.
+    * Trips, Quads, and Boats are impossible in this game.
 
 # Countdown (Progressive Draw)
 ### Type: 5Card Draw
@@ -221,8 +216,7 @@
 ### Variation:
  1. First Draw
     * Before any cards are requested to be Drawn- The dealer asks each player, in order, if they can 'Open'.
-    * Players can only open if they have a pair of jacks or better in their existing hand.
-      * This must be able to be proven at the Showdown but will not be shown as proof at this time.
+    * Players can only open if they have a pair of jacks or better in their existing hand. This must be able to be proven at the Showdown but will not be shown as proof at this time.
     * If someone can open, the dealer does not continue asking players if they can open. Play now continues as players' Draw can begin followed by final bet and showdown.
     * If noone can open, the dealer collects all the cards, reshuffles, and redeals.
     * If at anypoint someone Folds, they are not able to be redealt cards if noone can open.

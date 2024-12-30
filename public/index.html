@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+  <title>Question of the Night</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    .header {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Question of the Night ♣♥♠♦</h1>
+  <div id="randomHeader" class="header"></div>
+
+<script>
+
+    async function fetchMarkdown(url) {
+      const response = await fetch(url);
+      if (!response.ok) {
+       throw new Error(`Failed to fetch Markdown: ${response.statusText}`);
+      }
+      return await response.text();
+    }
+
+    function parseMarkdown(markdown) {
+      const sections = [];
+      const lines = markdown.split('\n');
+      let currentHeader = null;
+
+      lines.forEach(line => {
+        const headerMatch = line.match(/^#\s+(.*)/);
+        if (headerMatch) {
+          if (currentHeader) sections.push(currentHeader);
+          currentHeader = {
+            level: 1,
+            title: headerMatch[1],
+            content: ''
+          };
+        } else if (currentHeader) {
+          currentHeader.content += line + '\n';
+        }
+      });
+
+      if (currentHeader) sections.push(currentHeader);
+      return sections;
+    }
+
+    function markdownToHtml(content) {
+       var converter = new showdown.Converter(),
+       text = content,
+       html = converter.makeHtml(text); 
+       return html;
+    }
+
+
+    async function renderRandomHeader() {
+      try {
+        const markdown = await fetchMarkdown('./games.md');
+        const sections = parseMarkdown(markdown);
+        const randomSection = sections[Math.floor(Math.random() * sections.length)];
+
+        const headerHtml = `<h${randomSection.level}>${randomSection.title}</h${randomSection.level}>`;
+        const contentHtml = markdownToHtml(randomSection.content);
+        document.getElementById('randomHeader').innerHTML = headerHtml + contentHtml;
+      } catch (error) {
+        console.error(error);
+        document.getElementById('randomHeader').textContent = 'Failed to load content.';
+      }
+    }
+
+    renderRandomHeader();
+  </script>
+
+</body>
+</html>
+
