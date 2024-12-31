@@ -26,3 +26,7 @@
 ### Allowed and Repeat Games
 * House should consider whether or not to allow repeat games, what an allowed game list may include, and how choices can be made.
 
+### Chip Accounting
+* House should determine how chips may be exchanged for smaller or larger denominations.
+* House should consider when players are allowed to exchange personal chips with chips currently present in the pot (i.e. Player exchanges 5 nickels in the pot for their own quarter when it is not their turn to bet).
+
